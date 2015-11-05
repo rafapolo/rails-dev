@@ -9,5 +9,15 @@ Gem::Specification.new do |s|
   s.files       = ["lib/task.rb"]
   s.homepage    = 'https://git.tacticaltech.org/ttc/ttc_dev'
 
-  s.add_dependency "rake", "~> 10.4"
+  s.add_dependency 'rake',         '~> 10.4' # to run tasks
+  s.add_dependency 'rails-rename', '~> 1.0'  # to rename the Base app
+  s.add_dependency 'web-console',  '~> 2.2'  # to debug on browser
+  s.add_dependency 'jbuilder',     '~> 2.3'  # to develop APIs
+  s.add_dependency 'quiet_assets', '~> 1.1'  # to better STDOUT on dev
+  s.add_dependency 'rails-erd',    '~> 1.4'  # to create model.png
+  s.add_dependency 'spring',       '~> 1.4'  # to auto reload app
+  s.add_dependency 'sdoc',         '~> 0.4'  # to generate docs
+  s.add_dependency 'rbtrace',      '~> 0.4'  # to deeply debug
+  s.add_dependency 'sqlite3',      '~> 1.3'  # to run tests
+  s.add_dependency 'deploy_helpers', '~> 0.1'# to deploy
 end
