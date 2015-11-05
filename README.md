@@ -12,6 +12,6 @@ end
 
 Sample usage:
 ```
-bundle exec rake ttc:configure"
+bundle exec rake ttc:configure
 ```
 
