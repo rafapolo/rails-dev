@@ -15,3 +15,7 @@ Sample usage:
 bundle exec rake ttc:configure
 ```
 
+to do
+  - a "roubot linter" showing errors before deploy
+  - auto 500.html to nginx
+  - auto generate model schema

@@ -11,10 +11,6 @@ gem 'sdoc',         '~> 0.4'  # to generate docs
 gem 'rbtrace',      '~> 0.4'  # to deeply debug
 gem 'sqlite3',      '~> 1.3'  # to run tests
 
-# TTC deploy helper
-gem 'deploy_helpers', '~> 0.1',
-  :git => 'git@git.tacticaltech.org:ttc/deploy-helpers.git'
-
 # todo
   # a "roubot linter" showing errors before deploy
   # auto 500.html to nginx
