@@ -21,7 +21,6 @@ Just add it to your Rails project Gemfile:
 group :development, :test do
   gem 'ttc_dev', :git => 'git@git.tacticaltech.org:ttc/tcc_dev.git'
 end
-
 ```
 
 Sample usage:
@@ -30,6 +29,7 @@ bundle exec rake ttc:configure
 ```
 
 to do
+  - discuss dev tasks    
   - a "roubot linter" showing errors before deploy
   - auto 500.html to nginx
   - auto generate model schema
