@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'ttc_dev'
+  s.name        = 'rails_dev'
   s.version     = '0.1.0'
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make the life of TTC dev's more pleasureable."
@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["polo"]
   s.email       = 'stalker@tacticaltech.org'
   s.files       = ["lib/task.rb"]
-  s.homepage    = 'https://git.tacticaltech.org/ttc/ttc_dev'
+  s.homepage    = 'https://git.tacticaltech.org/ttc/rails_dev'
 
   s.add_dependency 'rake',         '~> 10.4' # to run tasks
   s.add_dependency 'rails-rename', '~> 1.0'  # to rename the Base app
