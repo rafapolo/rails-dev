@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'rails_dev'
+  s.name        = 'ttc_rails_dev'
   s.version     = '0.1.0'
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make the life of TTC dev's more pleasureable."
