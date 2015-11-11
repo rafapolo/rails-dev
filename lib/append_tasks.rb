@@ -1,7 +1,7 @@
 require 'rake'
 
 namespace :db do
-  task :migrate  do
+  task :migrate => :environment do
     if Rails.env.development?
       now = Time.now.strftime("%Y-%m-%d %H:%M")
       ENV['title'] = "Schema on #{now}"
@@ -12,13 +12,4 @@ namespace :db do
       puts "=> #{ENV['title']} at #{ENV['filename']}.#{ENV['filetype']}"
     end
   end
-end
-
-namespace :ttc do
-
-  desc "Configure development environment"
-  task :configure do
-    `bundle install`
-  end
-
 end

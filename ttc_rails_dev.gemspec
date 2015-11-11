@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "TTC shared dev configurations"
   s.authors     = ["polo"]
   s.email       = 'stalker@tacticaltech.org'
-  s.files       = ["lib/tasks.rb"]
+  s.files       = ["lib/ttc_tasks.rb", "lib/append_tasks.rb"]
   s.homepage    = 'https://git.tacticaltech.org/ttc/rails_dev'
 
   s.add_dependency 'rake',         '~> 10.4' # to run tasks
