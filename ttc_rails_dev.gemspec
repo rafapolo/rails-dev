@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name        = 'ttc_rails_dev'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make the life of TTC dev's more pleasureable."
   s.description = "TTC shared dev configurations"
   s.authors     = ["polo"]
   s.email       = 'stalker@tacticaltech.org'
-  s.files       = ["lib/task.rb"]
+  s.files       = ["lib/tasks.rb"]
   s.homepage    = 'https://git.tacticaltech.org/ttc/rails_dev'
 
   s.add_dependency 'rake',         '~> 10.4' # to run tasks
