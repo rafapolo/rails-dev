@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'sdoc',         '~> 0.4'  # to generate docs
   s.add_dependency 'rbtrace',      '~> 0.4'  # to deeply debug
   s.add_dependency 'sqlite3',      '~> 1.3'  # to run tests
+  s.add_dependency 'deploy_helpers'
 end

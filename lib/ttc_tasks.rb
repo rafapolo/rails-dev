@@ -1,6 +1,6 @@
 require 'rake'
 
-namespace :ttc do
+namespace :stalker do
 
   desc "Configure development environment"
   task :configure => :environment do
