@@ -9,6 +9,7 @@ group :development do
   gem 'rails-erd',    '~> 1.4'  # to create model.png
   gem 'spring',       '~> 1.4'  # to auto reload app
   gem 'sdoc',         '~> 0.4'  # to generate docs
+  gem 'byebug',       '~> 8.2'  # to debug
   gem 'rbtrace',      '~> 0.4'  # to deeply debug
   gem 'sqlite3',      '~> 1.3'  # to run tests
   gem 'deploy_helpers', :git => 'git@git.tacticaltech.org:ttc/deploy-helpers.git'

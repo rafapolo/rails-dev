@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ttc_rails_dev'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make the life of TTC dev's more pleasureable."
   s.description = "TTC shared dev configurations"
@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rake',         '~> 10.4' # to run tasks
   s.add_dependency 'rails-rename', '~> 1.0'  # to rename the Base app
+  s.add_dependency 'byebug',       '~> 8.2' # to run tasks
   s.add_dependency 'web-console',  '~> 2.2'  # to debug on browser
   s.add_dependency 'jbuilder',     '~> 2.3'  # to develop APIs
   s.add_dependency 'quiet_assets', '~> 1.1'  # to better STDOUT on dev
