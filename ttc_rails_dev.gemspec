@@ -5,7 +5,7 @@ require "ttc_rails_dev/version"
 
 Gem::Specification.new do |s|
   s.name        = 'ttc_rails_dev'
-  s.version     = TtcRailsDev::Version
+  s.version     = TtcRailsDev::VERSION
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make the life of TTC dev's more pleasureable."
   s.description = "TTC shared dev configurations"
