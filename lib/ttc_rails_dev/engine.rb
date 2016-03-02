@@ -9,7 +9,6 @@ module TtcRailsDev
     require 'jbuilder'
     require 'quiet_assets'
     require 'rails-erd'
-    require 'spring'
     require 'sdoc'
     require 'rbtrace'
     require 'sqlite3'

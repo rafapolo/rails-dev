@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'jbuilder',     '~> 2.3'  # to develop APIs
   s.add_dependency 'quiet_assets', '~> 1.1'  # to better STDOUT on dev
   s.add_dependency 'rails-erd',    '~> 1.4'  # to create model.png
-  s.add_dependency 'spring',       '~> 1.4'  # to auto reload app
   s.add_dependency 'sdoc',         '~> 0.4'  # to generate docs
   s.add_dependency 'rbtrace',      '~> 0.4'  # to deeply debug
   s.add_dependency 'sqlite3',      '~> 1.3'  # to run tests
