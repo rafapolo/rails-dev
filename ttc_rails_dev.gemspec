@@ -1,12 +1,17 @@
+$:.push File.expand_path("../lib", __FILE__)
+
+# Maintain your gem's version:
+require "ttc_rails_dev/version"
+
 Gem::Specification.new do |s|
   s.name        = 'ttc_rails_dev'
-  s.version     = '0.1.2'
+  s.version     = TtcRailsDev::Version
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make the life of TTC dev's more pleasureable."
   s.description = "TTC shared dev configurations"
   s.authors     = ["polo"]
   s.email       = 'stalker@tacticaltech.org'
-  s.files       = ["lib/ttc_tasks.rb", "lib/append_tasks.rb"]
+  s.files       = ["lib/tasks/ttc_tasks.rake", "lib/tasks/append_tasks.rake", 'Rakefile']
   s.homepage    = 'https://git.tacticaltech.org/ttc/rails_dev'
 
   s.add_dependency 'rake',         '~> 10.4' # to run tasks
