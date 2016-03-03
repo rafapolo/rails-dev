@@ -12,6 +12,7 @@ module TtcRailsDev
     require 'sdoc'
     require 'rbtrace'
     require 'sqlite3'
+    require 'binding_of_caller'
     require 'better_errors'
 
     config.autoload_paths << File.expand_path('../../', __FILE__)

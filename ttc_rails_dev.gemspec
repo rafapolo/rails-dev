@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'rbtrace',      '~> 0.4'  # to deeply debug
   s.add_dependency 'sqlite3',      '~> 1.3'  # to run tests
   s.add_dependency 'better_errors', '~> 2.1'
-  s.add_dependency "binding_of_caller", '~> 0.7.3'
+  s.add_dependency "binding_of_caller"
 
 end

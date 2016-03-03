@@ -12,7 +12,7 @@ gem 'byebug',        '~> 8.2'  # to debug
 gem 'rbtrace',       '~> 0.4'  # to deeply debug
 gem 'sqlite3',       '~> 1.3'  # to run tests
 gem "better_errors", '~> 2.1'
-gem "binding_of_caller", '~> 0.7.3'
+gem "binding_of_caller"
 
 # todo
   # a "roubot linter" showing errors before deploy
