@@ -10,7 +10,6 @@ module TtcRailsDev
     require 'quiet_assets'
     require 'rails-erd'
     require 'sdoc'
-    require 'rbtrace'
     require 'sqlite3'
     require 'binding_of_caller'
     require 'better_errors'
