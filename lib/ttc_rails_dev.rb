@@ -14,6 +14,7 @@ module TtcRailsDev
     require 'sqlite3'
     require 'binding_of_caller'
     require 'better_errors'
+    require 'deploy_helpers'
 
     config.autoload_paths << File.expand_path('../../', __FILE__)
 
