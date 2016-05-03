@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-#gemspec
+gemspec
 
 gem 'rake',               '~> 10.4' # to run tasks
 gem 'rails-rename',       '~> 1.0'  # to rename the Base app
@@ -13,4 +13,4 @@ gem 'byebug',             '~> 8.2'  # to debug
 gem 'sqlite3',            '~> 1.3'  # to run tests
 gem 'better_errors',      '~> 2.1'  # to debug web dev
 gem 'binding_of_caller',  '~> 0.7'  # to debug web dev
-gem 'deploy_helpers',     :git => 'https://git.tacticaltech.org/ttc/deploy-helpers.git'
+gem 'deploy_helpers',     :git => 'git@git.tacticaltech.org:ttc/deploy-helpers.git'
