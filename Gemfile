@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gemspec
+#gemspec
 
 gem 'rake',               '~> 10.4' # to run tasks
 gem 'rails-rename',       '~> 1.0'  # to rename the Base app
