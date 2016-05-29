@@ -7,7 +7,7 @@ namespace :db do
       ENV['title'] = "Schema on #{now}"
       ENV['filename'] = 'doc/model'
       ENV['filetype'] = 'png'
-      #ENV['exclude'] = 'AdminUser'
+      ENV['exclude'] = 'Ckeditor::Asset,ActiveAdmin::Comment,AdminUser,ActiveRecord::SchemaMigration'
       Rake::Task["erd"].invoke
       puts "=> #{ENV['title']} at #{ENV['filename']}.#{ENV['filetype']}"
     end
