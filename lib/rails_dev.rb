@@ -14,6 +14,7 @@ module RailsDev
     require 'binding_of_caller'
     require 'better_errors'
     require 'awesome_print'
+    require 'will_paginate'
 
     config.autoload_paths << File.expand_path('../../', __FILE__)
 
