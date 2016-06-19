@@ -16,7 +16,6 @@ module RailsDev
     require 'awesome_print'
     require 'will_paginate'
     require 'brakeman'
-    require 'bundler-audit'
 
     config.autoload_paths << File.expand_path('../../', __FILE__)
 
