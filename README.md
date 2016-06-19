@@ -21,6 +21,6 @@ gem 'binding_of_caller',  '~> 0.7'  # to debug web dev
 Just add it to your Rails project Gemfile:
 ```
 group :development, :test do
-  gem 'ttc_rails_dev', :git => 'git@github.com:rafapolo/rails-dev.git'
+  gem 'rails_dev', :git => 'git@github.com:rafapolo/rails-dev.git'
 end
 ```
