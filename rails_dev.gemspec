@@ -1,13 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'ttc_rails_dev'
+  s.name        = 'rails_dev'
   s.version     = '0.1.6'
   s.license     = 'GPLv3'
-  s.summary     = "A set of gems, shared configurations and tasks to make the life of TTC dev's more pleasureable."
-  s.description = "TTC shared dev configurations"
+  s.summary     = "A set of gems, shared configurations and tasks to make the life dev's more pleasureable"
+  s.description = "shared dev configurations"
   s.authors     = ["polo"]
-  s.email       = 'stalker@tacticaltech.org'
+  s.email       = 'x@extrapolo.com'
   s.files       = ["lib/tasks/ttc_tasks.rake", "lib/tasks/append_tasks.rake", 'Rakefile']
   s.homepage    = 'https://git.tacticaltech.org/ttc/rails_dev'
 

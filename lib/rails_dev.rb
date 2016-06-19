@@ -1,6 +1,6 @@
-module TtcRailsDev
+module RailsDev
   class Engine < ::Rails::Engine
-    isolate_namespace TtcRailsDev
+    isolate_namespace RailsDev
 
     require 'rake'
     require 'rails-rename'

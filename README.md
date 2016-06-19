@@ -1,6 +1,6 @@
-# TTC Development
+# ExtraPolo Development
 
-The TTC Dev are a set of gems, configurations and tasks that allow Rails developers to have all they need to debug & deploy a web project.
+The ExtraPolo Dev are a set of gems, configurations and tasks that allow Rails developers to have all they need to debug & deploy a web project.
 
 It consists of
 ```
@@ -21,6 +21,6 @@ gem 'binding_of_caller',  '~> 0.7'  # to debug web dev
 Just add it to your Rails project Gemfile:
 ```
 group :development, :test do
-  gem 'ttc_rails_dev', :git => 'git@git.tacticaltech.org:ttc/tcc_rails_dev.git'
+  gem 'ttc_rails_dev', :git => 'git@github.com:rafapolo/rails-dev.git'
 end
 ```
