@@ -23,4 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'better_errors',     '~> 2.1'  # to debug web dev
   s.add_dependency 'binding_of_caller', '~> 0.7'  # to debug web dev
   s.add_dependency 'awesome_print'                # pretty print
+  # security
+  s.add_dependency 'brakeman'
+  s.add_dependency 'bundler-audit'
 end

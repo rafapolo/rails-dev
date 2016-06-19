@@ -13,5 +13,7 @@ gem 'sqlite3',            '~> 1.3'  # to run tests
 gem 'better_errors',      '~> 2.1'  # to debug web dev
 gem 'binding_of_caller',  '~> 0.7'  # to debug web dev
 gem 'awesome_print'                 # pretty print
+gem 'bundler-audit'
+gem 'brakeman'
 
 gemspec
